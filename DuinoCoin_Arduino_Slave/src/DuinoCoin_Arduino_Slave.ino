@@ -3,6 +3,9 @@
   created 10 05 2021
   by Luiz H. Cassettari
 */
+#include <Arduino.h>
+
+#define LED LED_BUILTIN
 
 void setup() {
   Serial.begin(115200);
